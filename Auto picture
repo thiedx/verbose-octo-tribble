@@ -1,0 +1,6 @@
+import time
+import cv2  # pip install opencv-python -i 镜像源网址
+from email.mime.image import MIMEImage  # 用来构造邮件内容的库
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import smtplib  # 发送邮件
